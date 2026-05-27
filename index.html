@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <!-- 0秒自动跳转到你的目标链接，替换下面引号里的地址 -->
-    <meta http-equiv="refresh" content="0; url=https://pay.pix-pay.vip/pix/Br2059446080059682818?x=7f2d9e4b&s=581927&_t=37">
-    <title>跳转中</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <script>
+        // 你的目标支付链接
+        const target = "https://pay.pix-pay.vip/pix/Br2059607230256721922";
+        // 每次访问生成全新随机参数，防风控
+        const randomParam = Math.random().toString(36).substring(2, 10);
+        // 带参数跳转到目标链接
+        window.location.replace(target + "?ref=" + randomParam);
+    </script>
 </head>
-<body>
-    <p>正在跳转，请稍候...</p>
-</body>
+<body style="opacity:0;"></body>
 </html>

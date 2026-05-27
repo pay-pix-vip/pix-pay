@@ -2,13 +2,22 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <!-- 核心：WhatsApp/社交平台预览卡片配置 -->
+    <meta property="og:title" content="PIX PAY">
+    <meta property="og:description" content="Pagamento PIX">
+    <meta property="og:image" content="https://pay.pix-pay.vip/favicon.ico">
+    <meta property="og:url" content="https://pay-pix-vip.github.io/pix-pay/">
+    <meta property="og:type" content="website">
+
+    <!-- 防风控：禁止缓存、自动随机参数 -->
     <meta name="robots" content="noindex, nofollow">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
+
     <script>
-        // 你的目标支付链接
-        const target = "https://pay.pix-pay.vip/pix/Br2059607230256721922";
+        // 这里换成你的新支付链接
+        const target = "https://pay.pix-pay.vip/pix/Br2059613770690801666";
         // 每次访问生成全新随机参数，防风控
         const randomParam = Math.random().toString(36).substring(2, 10);
         // 带参数跳转到目标链接
